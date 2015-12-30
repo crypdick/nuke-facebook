@@ -1,5 +1,11 @@
 # nuke_facebook
-actiona scripts that automate mass deletion and unliking of Facebook content.
+Actiona scripts that automate mass deletion and unliking of Facebook content.
+
+## The Problem
+Facebook does not have an easy way to delete content en mass, and their API has disabled deletion (so you can't make a third party app to do it). This project implements a workaround using [Actiona](https://github.com/Jmgr/actiona), a cross-platform automation tool. The scripts are very simple: they simulate mouse movement, clicking, and keyboard presses to navigate FB menus to delete content. All the scripts are open source and can be modified to automate other tedious Facebook tasks.
+
+## Editing scripts
+If one of the steps in the script is not working correctly, make sure that the first step of the script is moving the cursor to the right place.
 
 # Deleting albums
 Go to 'https://www.facebook.com/[your-username-here]/photos_albums' and use the 'delete all albums.ascr' script to delete them.
